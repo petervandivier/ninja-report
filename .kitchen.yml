@@ -1,16 +1,12 @@
 driver:	
   name: vagrant
 
-transport:	
-  name: winrm	
-  password: vagrant	
-  username: vagrant	
-
 platforms:
   - name: tas50/windows_2019	
+    transport:	
+      name: winrm	
     driver_config:	
-      vm_hostname: arthur 	
-      box: tas50/windows_2019	
+      guest: :windows
       username: vagrant	
       password: vagrant	
       communicator: winrm
