@@ -12,6 +12,6 @@ platforms:
       communicator: winrm
 
 suites:
-  - name: arthur
+  - name: phil
     driver: 
-      vm_hostname: arthur
+      vm_hostname: phil
