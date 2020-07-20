@@ -15,3 +15,5 @@ suites:
   - name: phil
     driver: 
       vm_hostname: phil
+    run_list:
+      - recipe[ninja-report::default]
