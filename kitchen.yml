@@ -1,14 +1,14 @@
-driver:	
+driver:
   name: vagrant
 
 platforms:
-  - name: tas50/windows_2019	
-    transport:	
-      name: winrm	
-    driver_config:	
+  - name: tas50/windows_2019
+    transport:
+      name: winrm
+    driver_config:
       guest: :windows
-      username: vagrant	
-      password: vagrant	
+      username: vagrant
+      password: vagrant
       communicator: winrm
 
 suites:
