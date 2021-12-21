@@ -15,5 +15,8 @@ suites:
   - name: phil
     driver: 
       vm_hostname: phil
+    driver_config:
+      network:
+        - ["forwarded_port", {guest: 1433, host: 14330}]
     run_list:
       - recipe[ninja-report::default]
