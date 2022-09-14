@@ -14,6 +14,8 @@ platforms:
 suites:
   - name: phil
     driver: 
+      customize:
+        memory: 2048
       vm_hostname: phil
     driver_config:
       network:
